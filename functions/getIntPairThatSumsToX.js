@@ -1,12 +1,12 @@
 module.exports = (x) => {
-	const doTheCalculation = (intArray) => {
-		if(typeof x === 'undefined') return
-		const hashTable = {}
-		for (let i = 0; i < intArray.length; i++) {
-			if(hashTable[x - intArray[i]])
-				return [intArray[i], x - intArray[i]]
-			hashTable[intArray[i]] = true
+	const calculation = (arr) => {
+		let hash = {}
+		for (let i = 0; i < arr.length; i++) {
+			if(hash[x - arr[i]])
+				return [arr[i], x - arr[i]]
+			else
+				hash[arr[i]] = true
 		}
 	}
-	return doTheCalculationg
+	return calculation
 }
