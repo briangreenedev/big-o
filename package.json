@@ -1,0 +1,28 @@
+{
+  "name": "big-o",
+  "version": "1.0.0",
+  "description": "A JavaScript library you can use to help sort huge arrays and complex algorithms.",
+  "scripts": {
+    "test": "jest"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briangreenedev/big-o.git"
+  },
+  "author": "Brian Greene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/briangreenedev/big-o/issues"
+  },
+  "homepage": "https://github.com/briangreenedev/big-o#readme",
+  "dependencies": {
+    "simple-hashtable": "^1.0.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "jest": "^26.0.1",
+    "mocha": "^7.2.0",
+    "random-array-generator": "^1.0.7"
+  }
+}
